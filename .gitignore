@@ -26,8 +26,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.vscode
-.ipynb_checkpoints
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -78,6 +76,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.vscode
+
+
 
 # IPython
 profile_default/
