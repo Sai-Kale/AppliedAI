@@ -4,48 +4,51 @@
 - In case of rendering issue and unable to open the .ipynb notebooks we can open it the https://nbviewer.org/
 - Open the URL and enter the github link to .ipynb (make sure the github link is publicly accessible) 
 
-# Setting up Anaconda Environment on Ubuntu 20.04 WSL2
+# Setting up Anaconda Environment on Ubuntu 20.04 WSL2 /Linux based environments.
   
 [Link_to_Install_Miniconda_WSL2](https://towardsdatascience.com/configuring-jupyter-notebook-in-windows-subsystem-linux-wsl2-c757893e9d69 "Link_to_Install_Miniconda_WSL2")   
 
 Install all the required list of libraries that needs to be used. In the below details just install the libraries as from the above link we are already installing the minconda on WSL2.
 
-For step by step instruction refer to the **installation.ipynb**
+For step by step instruction refer to the **installation.ipynb** . You can also refer this video (https://www.youtube.com/watch?v=hbUJ6nd-9lA)
+
+
+# System Setup
+
+## before we dive into ML lets setup our systems so that we can work with all our assignments, without facing problems
+
+
+### NOTE # Follow these steps for windows. For Linux/ WSL2 we dont requrie to do this setup. follow(Setting up Anaconda Environment on Ubuntu 20.04 WSL2) above
+		# as a first step lets install anaconda, you can choose the link that are mentioned below
+		choose the link which suits for your config
+		# as i am using windows 64bit system i will be downloading it with this link
+		https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe 
+
+		# you can see its downloading.
+		# you can see its downloaded
+		#lets install it by clicking it
+		# make sure in that installation path there should not be any spaces 
+		# its better you install it like this 
+		# make sure that you click on that "add path" if you missed this part you might see some glitches while installing packages
+
+		#installation is complete
+		# lets just verify it
+		# its your call to install vs code if you want you can skip it
+		# its working fine
+
+		1. installing anaconda 
+			Windown 64 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe 
+			Windown 32 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86.exe 
+			Mac : https://repo.continuum.io/archive/Anaconda3-5.2.0-MacOSX-x86_64.sh 
+			Linux 64 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh 
+			Linux 32 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86.sh 
+			Check the previous Archives of Anaconda: https://repo.continuum.io/archive/
 
 ```
-System Setup
-
-# before we dive into ML lets setup our systems so that we can work with all our assignments, without facing problems
-
-# as a first step lets install anaconda, you can choose the link that are mentioned below
-choose the link which suits for your config
-# as i am using windows 64bit system i will be downloading it with this link
-https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe 
-
-# you can see its downloading.
-# you can see its downloaded
-#lets install it by clicking it
-# make sure in that installation path there should not be any spaces 
-# its better you install it like this 
-# make sure that you click on that "add path" if you missed this part you might see some glitches while installing packages
-
-#installation is complete
-# lets just verify it
-# its your call to install vs code if you want you can skip it
-# its working fine
-
-1. installing anaconda 
-	Windown 64 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe 
-	Windown 32 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86.exe 
-	Mac : https://repo.continuum.io/archive/Anaconda3-5.2.0-MacOSX-x86_64.sh 
-	Linux 64 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh 
-	Linux 32 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86.sh 
-	Check the previous Archives of Anaconda: https://repo.continuum.io/archive/
-
 
 # we will be installing all these packages and verifying
 
-Package to be install
+- Package to be install
 1. plotly --- done
 2. gensim -- done
 3. graphviz -- this is used to plot decision tree, dask dataframe tree, DL models etc
@@ -87,3 +90,6 @@ https://medium.com/dunder-data/anaconda-is-bloated-set-up-a-lean-robust-data-sci
 - jupyter notebook --no-browser (Opens jupyter Notebook)
         - Copy paste the URL link output in the browser to see it in the GUI format. (Direct GUI isnt supported in linux env and we need to enable seperately.)
 - We can work with the .ipynb Notebooks with  [Google_Collaboratory](https://colab.research.google.com/ "Google Collaboratory to make edits to .ipynb online") online as well. In case no personal laptop.
+
+## Google Collab Usage:
+
